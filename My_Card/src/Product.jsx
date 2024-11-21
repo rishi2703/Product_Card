@@ -11,11 +11,11 @@ export default function Product({title, idx, image}){
         border: "none",
         borderRadius: "14px",
         marginBottom: "  15px",
-        marginLeft: "10px",
+        marginLeft: "13px",
         width: "200px",
-         height: "300px", 
+         height: "320px", 
         Position:"cover",
-        backgroundColor:"#F4B049",
+        backgroundColor:"#D99595",
         color:"white",
         textAlign: "center",
         // padding: "10px",
@@ -23,9 +23,9 @@ export default function Product({title, idx, image}){
     }
     let imageStyles = {
         width: "200px",
-        height: "180px",
-         objectFit: "cover",
-        // borderRadius: "10px"
+        height: "200px",
+        //  objectFit: "cover",
+         borderRadius: "10px"
     };
     return(
 <div style={styles}>
